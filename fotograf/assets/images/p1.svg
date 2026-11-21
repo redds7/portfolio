@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Портрет у окна в тёплом свете">
+  <title>Портрет у окна</title>
+  <defs>
+    <linearGradient id="p1bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A211C"/>
+      <stop offset="0.55" stop-color="#171210"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="p1glow" cx="72%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#D98B36" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#D98B36" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#D98B36" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p1skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B57A4F"/>
+      <stop offset="0.6" stop-color="#7A4C32"/>
+      <stop offset="1" stop-color="#3B261C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p1bg)"/>
+  <circle cx="600" cy="120" r="280" fill="url(#p1glow)"/>
+  <rect x="500" y="40" width="230" height="360" rx="4" fill="#D98B36" opacity="0.10"/>
+  <path d="M500 40 H730 V400 H500 Z" fill="none" stroke="#F1E8DA" stroke-opacity="0.16" stroke-width="8"/>
+  <path d="M615 40 V400 M500 220 H730" fill="none" stroke="#F1E8DA" stroke-opacity="0.12" stroke-width="6"/>
+  <path d="M85 600 C120 455 210 395 325 390 C440 385 535 450 570 600 Z" fill="#0A0808"/>
+  <path d="M300 390 V330 H430 V390 Z" fill="#1A120E"/>
+  <ellipse cx="365" cy="255" rx="104" ry="125" fill="url(#p1skin)"/>
+  <path d="M262 248 C268 150 330 112 388 122 C455 134 482 195 470 266 C450 220 424 202 392 196 C350 188 310 205 278 250 Z" fill="#090808"/>
+  <path d="M470 252 C482 285 470 330 438 352 C452 310 448 275 436 246 Z" fill="#0A0808"/>
+  <path d="M446 184 C466 205 474 232 470 258" fill="none" stroke="#D98B36" stroke-width="5" stroke-opacity="0.75"/>
+  <path d="M306 286 C322 296 340 298 355 294" fill="none" stroke="#17100C" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="412" cy="272" r="6" fill="#17100C"/>
+  <path d="M390 330 C405 338 420 337 432 329" fill="none" stroke="#5A3823" stroke-width="4" stroke-linecap="round"/>
+  <rect x="72" y="476" width="180" height="10" rx="5" fill="#F1E8DA" opacity="0.10"/>
+  <circle cx="660" cy="470" r="90" fill="#D98B36" opacity="0.05"/>
+</svg>

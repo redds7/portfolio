@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Зерно: кофейня. Концептуальный проект</title>
+  <meta name="description" content="Зерно: концепт сайта уютной кофейни specialty-кофе и свежей выпечки. Демонстрационный проект студии redds.">
+  <meta name="theme-color" content="#F5EFE5">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+
+  <header class="header">
+    <div class="wrap header__in">
+      <a class="logo" href="#home">Зерно</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Меню сайта</button>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="home">
+      <div class="hero__text">
+        <h1>Хороший день начинается с кофе.</h1>
+        <p>«Зерно»: небольшая кофейня, где обжарку выбирают с вниманием, а выпечку достают из печи каждое утро. Заходите на чашку кофе по дороге на работу или на долгий разговор за угловым столиком.</p>
+        <a class="btn" href="#menu">Посмотреть меню</a>
+      </div>
+      <img class="hero__img" src="assets/images/hero.svg" width="800" height="600" alt="Светлый зал кофейни с арочными окнами, подвесными лампами и чашкой кофе на столе">
+    </section>
+
+    <section class="section wrap" id="menu" aria-labelledby="menu-title">
+      <h2 id="menu-title">Меню</h2>
+      <p class="note">Все позиции и цены вымышлены и показаны в демонстрационных целях.</p>
+
+      <article class="cat">
+        <img src="assets/images/menu-coffee.svg" width="800" height="600" loading="lazy" decoding="async" alt="Чашка капучино на блюдце, вид сверху">
+        <div>
+          <h3>Кофе</h3>
+          <ul class="items">
+            <li><div class="row"><h4>Эспрессо</h4><data value="150">150&nbsp;₽</data></div><p>Плотный, с карамельной сладостью и мягкой кислотой.</p></li>
+            <li><div class="row"><h4>Американо</h4><data value="190">190&nbsp;₽</data></div><p>Эспрессо с горячей водой, чистый и ясный вкус.</p></li>
+            <li><div class="row"><h4>Капучино</h4><data value="260">260&nbsp;₽</data></div><p>Двойной эспрессо и бархатная молочная пена.</p></li>
+            <li><div class="row"><h4>Флэт уайт</h4><data value="290">290&nbsp;₽</data></div><p>Больше кофе, меньше молока: для тех, кто любит насыщенность.</p></li>
+            <li><div class="row"><h4>Фильтр-кофе</h4><data value="280">280&nbsp;₽</data></div><p>Заваривается по заказу, сорт зёрен меняется каждую неделю.</p></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="cat">
+        <img src="assets/images/menu-tea.svg" width="800" height="600" loading="lazy" decoding="async" alt="Заварочный чайник на тёплом фоне">
+        <div>
+          <h3>Чай и другие напитки</h3>
+          <ul class="items">
+            <li><div class="row"><h4>Чёрный чай с бергамотом</h4><data value="220">220&nbsp;₽</data></div><p>Классический эрл грей, подаётся в чайнике на двоих.</p></li>
+            <li><div class="row"><h4>Зелёный сенча</h4><data value="230">230&nbsp;₽</data></div><p>Свежий травянистый вкус с лёгкой сладостью.</p></li>
+            <li><div class="row"><h4>Облепиховый чай</h4><data value="290">290&nbsp;₽</data></div><p>Ягоды, апельсин и имбирь. Согревает в холодный день.</p></li>
+            <li><div class="row"><h4>Какао с маршмеллоу</h4><data value="270">270&nbsp;₽</data></div><p>Густое, на цельном молоке, с домашним зефиром.</p></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="cat">
+        <img src="assets/images/menu-pastry.svg" width="800" height="600" loading="lazy" decoding="async" alt="Свежие круассаны на тёплом фоне">
+        <div>
+          <h3>Выпечка и десерты</h3>
+          <ul class="items">
+            <li><div class="row"><h4>Круассан сливочный</h4><data value="190">190&nbsp;₽</data></div><p>Слоёный, на сливочном масле, ещё тёплый из печи.</p></li>
+            <li><div class="row"><h4>Круассан с миндальным кремом</h4><data value="240">240&nbsp;₽</data></div><p>Хрустящая корочка и нежная начинка с лепестками миндаля.</p></li>
+            <li><div class="row"><h4>Яблочный пирог</h4><data value="260">260&nbsp;₽</data></div><p>Рассыпчатое тесто, яблоки и корица.</p></li>
+            <li><div class="row"><h4>Чизкейк «Сан-Себастьян»</h4><data value="340">340&nbsp;₽</data></div><p>Карамельная корочка и сливочная серединка.</p></li>
+            <li><div class="row"><h4>Овсяное печенье</h4><data value="120">120&nbsp;₽</data></div><p>С изюмом и кусочками шоколада.</p></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="wrap about__in">
+        <img src="assets/images/about.svg" width="800" height="600" loading="lazy" decoding="async" alt="Интерьер кофейни: подвесная лампа над столом с двумя чашками">
+        <div class="about__text">
+          <h2 id="about-title">О нас</h2>
+          <p>«Зерно» задумано как тихое место в середине дня: без спешки, с тёплым светом и запахом свежей выпечки.</p>
+          <p>Мы работаем с небольшими обжарщиками и выбираем зёрна по вкусу, а не по громкому названию. Каждый напиток готовим вручную и не торопимся.</p>
+          <p>Выпечку месим и раскатываем с утра, поэтому к обеду на витрине остаётся то, что вы успеете выбрать.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Галерея</h2>
+      <p class="note">Нажмите на кадр, чтобы открыть его крупнее.</p>
+      <ul class="gallery">
+        <li><button type="button" data-src="assets/images/gallery-1.svg" data-alt="Капучино на тёмном столе"><img src="assets/images/gallery-1.svg" width="800" height="600" loading="lazy" decoding="async" alt="Капучино на тёмном столе"></button></li>
+        <li><button type="button" data-src="assets/images/gallery-2.svg" data-alt="Круассан на тёплом фоне"><img src="assets/images/gallery-2.svg" width="800" height="600" loading="lazy" decoding="async" alt="Круассан на тёплом фоне"></button></li>
+        <li><button type="button" data-src="assets/images/gallery-3.svg" data-alt="Обжаренные кофейные зёрна"><img src="assets/images/gallery-3.svg" width="800" height="600" loading="lazy" decoding="async" alt="Обжаренные кофейные зёрна"></button></li>
+        <li><button type="button" data-src="assets/images/gallery-4.svg" data-alt="Зал кофейни с подвесными лампами"><img src="assets/images/gallery-4.svg" width="800" height="600" loading="lazy" decoding="async" alt="Зал кофейни с подвесными лампами"></button></li>
+        <li><button type="button" data-src="assets/images/gallery-5.svg" data-alt="Заварочный чайник"><img src="assets/images/gallery-5.svg" width="800" height="600" loading="lazy" decoding="async" alt="Заварочный чайник"></button></li>
+        <li><button type="button" data-src="assets/images/gallery-6.svg" data-alt="Две чашки кофе на блюдцах"><img src="assets/images/gallery-6.svg" width="800" height="600" loading="lazy" decoding="async" alt="Две чашки кофе на блюдцах"></button></li>
+      </ul>
+    </section>
+
+    <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="wrap">
+        <h2 id="contacts-title">Контакты</h2>
+        <p class="note">Все данные ниже вымышлены и нужны только для демонстрации.</p>
+        <dl class="info">
+          <div><dt>Адрес</dt><dd>г. Примерск, ул. Образцовая, 12<br><small>вымышленный адрес</small></dd></div>
+          <div><dt>Часы работы</dt><dd>Пн–Пт: 08:00–20:00<br>Сб–Вс: 09:00–21:00<br><small>демонстрационное расписание</small></dd></div>
+          <div><dt>Телефон</dt><dd>+7 (000) 000-00-00<br><small>вымышленный номер</small></dd></div>
+          <div><dt>Соцсети</dt><dd>Telegram и ВКонтакте<br><small>заглушки, настоящих аккаунтов нет</small></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <a class="logo" href="#home">Зерно</a>
+      <nav aria-label="Навигация в подвале">
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <p class="footer__contact">г. Примерск, ул. Образцовая, 12<br>+7 (000) 000-00-00 (вымышленный номер)</p>
+      <p class="footer__legal">© <span id="year">2026</span> «Зерно». <span class="badge">Концептуальный проект</span></p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Просмотр изображения">
+    <figure>
+      <img id="lightbox-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <figcaption id="lightbox-cap"></figcaption>
+    </figure>
+    <button class="lightbox__close" type="button" id="lightbox-close" aria-label="Закрыть">×</button>
+  </dialog>
+
+  <script src="main.js"></script>
+</body>
+</html>

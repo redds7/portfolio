@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Студия фотографа: Тихий свет</title>
+  <meta name="description" content="Демонстрационный сайт студии фотографа. Портреты, свадебные истории и городские кадры в тёмной визуальной подаче.">
+  <meta name="theme-color" content="#0A0A0B">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="Студия фотографа Тихий свет, на главную">Тихий<span>свет</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">Меню</button>
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#about">О студии</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">Студия фотографа</p>
+          <h1 id="hero-title">Свет, который остаётся.</h1>
+          <p class="hero__lead">Снимаю людей и города так, чтобы в кадре оставалось настроение этого дня. Демонстрационный проект с вымышленными работами и данными.</p>
+          <div class="hero__actions">
+            <a class="button" href="#portfolio">Смотреть работы</a>
+            <a class="text-link" href="#contacts">Обсудить съёмку</a>
+          </div>
+          <dl class="hero__meta">
+            <div>
+              <dt>Направления</dt>
+              <dd>Портрет, свадьба, город</dd>
+            </div>
+            <div>
+              <dt>Формат</dt>
+              <dd>Демонстрация</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="mosaic" aria-label="Мозаика из работ студии">
+          <figure class="mosaic__item mosaic__item--a">
+            <img src="assets/images/p1.svg" width="800" height="600" alt="Портрет у окна в тёплом свете">
+          </figure>
+          <figure class="mosaic__item mosaic__item--b">
+            <img src="assets/images/w2.svg" width="800" height="600" alt="Свадебный танец в свете гирлянд">
+          </figure>
+          <figure class="mosaic__item mosaic__item--c">
+            <img src="assets/images/c2.svg" width="800" height="600" alt="Ночная улица после дождя">
+          </figure>
+          <figure class="mosaic__item mosaic__item--d">
+            <img src="assets/images/p3.svg" width="800" height="600" alt="Городской портрет на фоне домов">
+          </figure>
+          <figure class="mosaic__item mosaic__item--e">
+            <img src="assets/images/w1.svg" width="800" height="600" alt="Свадебная пара под аркой">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Избранное</p>
+          <h2 id="portfolio-title">Портфолио</h2>
+          <p class="section__lead">Девять кадров из трёх направлений. Выберите серию или откройте любой кадр крупнее.</p>
+          <div class="filters" role="group" aria-label="Фильтр работ">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Все</button>
+            <button class="filter" type="button" data-filter="portraits" aria-pressed="false">Портреты</button>
+            <button class="filter" type="button" data-filter="weddings" aria-pressed="false">Свадьбы</button>
+            <button class="filter" type="button" data-filter="city" aria-pressed="false">Город</button>
+          </div>
+        </header>
+
+        <ul class="gallery" id="gallery">
+          <li class="card" data-category="portraits">
+            <button class="card__open" type="button" data-src="assets/images/p1.svg" data-alt="Портрет у окна в тёплом свете" data-caption="Утренний свет: портрет у окна">
+              <img src="assets/images/p1.svg" width="800" height="600" loading="lazy" decoding="async" alt="Портрет у окна в тёплом свете">
+              <span class="card__overlay" aria-hidden="true"><span>Портрет</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="portraits">
+            <button class="card__open" type="button" data-src="assets/images/p2.svg" data-alt="Портрет в профиль на тёплом фоне" data-caption="Профиль и мягкая тень">
+              <img src="assets/images/p2.svg" width="800" height="600" loading="lazy" decoding="async" alt="Портрет в профиль на тёплом фоне">
+              <span class="card__overlay" aria-hidden="true"><span>Портрет</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="portraits">
+            <button class="card__open" type="button" data-src="assets/images/p3.svg" data-alt="Городской портрет в пальто на фоне домов" data-caption="Городской портрет: вечер">
+              <img src="assets/images/p3.svg" width="800" height="600" loading="lazy" decoding="async" alt="Городской портрет в пальто на фоне домов">
+              <span class="card__overlay" aria-hidden="true"><span>Портрет</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="weddings">
+            <button class="card__open" type="button" data-src="assets/images/w1.svg" data-alt="Свадебная пара под аркой на закате" data-caption="Клятва под открытым небом">
+              <img src="assets/images/w1.svg" width="800" height="600" loading="lazy" decoding="async" alt="Свадебная пара под аркой на закате">
+              <span class="card__overlay" aria-hidden="true"><span>Свадьба</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="weddings">
+            <button class="card__open" type="button" data-src="assets/images/w2.svg" data-alt="Первый танец в свете гирлянд" data-caption="Первый танец в тёплом свете">
+              <img src="assets/images/w2.svg" width="800" height="600" loading="lazy" decoding="async" alt="Первый танец в свете гирлянд">
+              <span class="card__overlay" aria-hidden="true"><span>Свадьба</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="weddings">
+            <button class="card__open" type="button" data-src="assets/images/w3.svg" data-alt="Кольца и букет на скатерти" data-caption="Детали дня: кольца и букет">
+              <img src="assets/images/w3.svg" width="800" height="600" loading="lazy" decoding="async" alt="Кольца и букет на скатерти">
+              <span class="card__overlay" aria-hidden="true"><span>Свадьба</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="city">
+            <button class="card__open" type="button" data-src="assets/images/c1.svg" data-alt="Утренняя улица в лучах солнца" data-caption="Утренняя улица в лучах">
+              <img src="assets/images/c1.svg" width="800" height="600" loading="lazy" decoding="async" alt="Утренняя улица в лучах солнца">
+              <span class="card__overlay" aria-hidden="true"><span>Город</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="city">
+            <button class="card__open" type="button" data-src="assets/images/c2.svg" data-alt="Ночной перекрёсток после дождя" data-caption="Ночной перекрёсток и дождь">
+              <img src="assets/images/c2.svg" width="800" height="600" loading="lazy" decoding="async" alt="Ночной перекрёсток после дождя">
+              <span class="card__overlay" aria-hidden="true"><span>Город</span></span>
+            </button>
+          </li>
+          <li class="card" data-category="city">
+            <button class="card__open" type="button" data-src="assets/images/c3.svg" data-alt="Крыши домов на закате" data-caption="Крыши на закате">
+              <img src="assets/images/c3.svg" width="800" height="600" loading="lazy" decoding="async" alt="Крыши домов на закате">
+              <span class="card__overlay" aria-hidden="true"><span>Город</span></span>
+            </button>
+          </li>
+        </ul>
+        <p class="gallery__status" id="gallery-status" role="status" aria-live="polite">Показано кадров: 9. Категория: все работы.</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__visual">
+          <img src="assets/images/p2.svg" width="800" height="600" loading="lazy" decoding="async" alt="Стилизованный портрет в профиль">
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow">О студии</p>
+          <h2 id="about-title">Кадры без лишнего шума.</h2>
+          <p>Работаю с естественным светом и простыми историями. В портрете важна пауза, в свадьбе последовательность мгновений, в городе его ритм.</p>
+          <p>Съёмка строится вокруг человека: сначала разговор, потом несколько честных кадров. Никаких заученных поз и долгих пауз между ними.</p>
+          <p class="about__note">Все изображения на странице векторные, потому что это демонстрация интерфейса, а не реальный архив съёмок.</p>
+          <dl class="about__facts">
+            <div>
+              <dt>Подход</dt>
+              <dd>Естественный свет</dd>
+            </div>
+            <div>
+              <dt>Стиль</dt>
+              <dd>Сдержанный и тёплый</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Связь</p>
+          <h2 id="contacts-title">Контакты</h2>
+          <p class="section__lead">Демонстрационные данные: адрес, телефон и почта вымышлены. Ссылок на соцсети и карты нет.</p>
+        </header>
+        <div class="contact-grid">
+          <address class="contact-card">
+            <span class="contact-card__label">Адрес</span>
+            <strong>г. Примерск, ул. Светлая, 8</strong>
+            <small>вымышленный адрес</small>
+          </address>
+          <div class="contact-card">
+            <span class="contact-card__label">Телефон</span>
+            <strong>+7 (000) 000-00-00</strong>
+            <small>вымышленный номер</small>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card__label">Почта</span>
+            <strong>studio@example.test</strong>
+            <small>демонстрационный адрес</small>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card__label">Режим</span>
+            <strong>Пн и Вт: с 10:00 до 19:00. Ср: выходной.</strong>
+            <small>демонстрационное расписание</small>
+          </div>
+        </div>
+        <a class="button button--light" href="mailto:studio@example.test">Написать в студию</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <a class="brand" href="#home" aria-label="Студия фотографа Тихий свет, на главную">Тихий<span>свет</span></a>
+      <nav aria-label="Навигация в подвале">
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#about">О студии</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <p>Демонстрационный сайт студии фотографа.</p>
+      <p class="footer__legal">© <span id="year">2026</span> Тихий свет. Все данные вымышлены.</p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption">
+    <div class="lightbox__frame">
+      <button class="lightbox__close" type="button" id="lightbox-close" aria-label="Закрыть просмотр">×</button>
+      <figure>
+        <img id="lightbox-img" src="assets/images/p1.svg" alt="">
+        <figcaption id="lightbox-caption">Заголовок кадра</figcaption>
+      </figure>
+    </div>
+  </dialog>
+
+  <script src="main.js"></script>
+</body>
+</html>

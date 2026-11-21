@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F0E4D2"/>
+      <stop offset="1" stop-color="#D6BE9E"/>
+    </linearGradient>
+    <radialGradient id="coffee">
+      <stop stop-color="#C08E5C"/>
+      <stop offset="1" stop-color="#6E4A31"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="330" rx="340" ry="270" fill="#FBF3E6" opacity=".35"/>
+
+  <g transform="translate(268 320)">
+    <circle r="176" fill="#EADCC8" stroke="#C9B79E" stroke-width="5"/>
+    <circle r="146" fill="#FFF9EE" stroke="#E2D2B9" stroke-width="4"/>
+    <circle r="120" fill="url(#coffee)"/>
+    <path d="M0-70c22 24 28 46 16 60-10 10-10 20 0 30 14 14 12 34-16 52-28-18-30-38-16-52 10-10 10-20 0-30-12-14-6-36 16-60Z" fill="#F7E3C4"/>
+    <path d="M0-48c10 18 14 30 6 40-6 10-6 18 2 26M0-48c-10 18-14 30-6 40 6 10 6 18-2 26" fill="none" stroke="#FFF5E2" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(540 330)">
+    <circle r="176" fill="#EADCC8" stroke="#C9B79E" stroke-width="5"/>
+    <circle r="146" fill="#FFF9EE" stroke="#E2D2B9" stroke-width="4"/>
+    <circle r="120" fill="url(#coffee)"/>
+    <path d="M-30-40q30 60 60 0M-32 0q32 54 64 0M-26 40q26 38 52 0" fill="none" stroke="#F7E3C4" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>

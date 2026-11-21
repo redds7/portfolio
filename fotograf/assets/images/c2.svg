@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Ночной перекрёсток после дождя">
+  <title>Город: ночь</title>
+  <defs>
+    <linearGradient id="c2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101319"/>
+      <stop offset="0.6" stop-color="#0B0C10"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+    <radialGradient id="c2glow" cx="68%" cy="58%" r="46%">
+      <stop offset="0" stop-color="#D98B36" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#D98B36" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c2car" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2B241F"/>
+      <stop offset="0.5" stop-color="#16171A"/>
+      <stop offset="1" stop-color="#08090A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#c2sky)"/>
+  <rect width="800" height="600" fill="url(#c2glow)"/>
+  <path d="M0 330 H130 V170 H250 V300 H360 V140 H470 V320 H590 V190 H700 V330 H800 V600 H0 Z" fill="#0A0B0D"/>
+  <g fill="#F1E8DA" opacity="0.09">
+    <rect x="150" y="205" width="18" height="24"/><rect x="185" y="205" width="18" height="24"/>
+    <rect x="390" y="175" width="18" height="24"/><rect x="425" y="175" width="18" height="24"/>
+    <rect x="620" y="225" width="18" height="24"/><rect x="655" y="225" width="18" height="24"/>
+  </g>
+  <g stroke="#F1E8DA" stroke-opacity="0.08" stroke-width="2">
+    <path d="M45 20 L145 380"/><path d="M215 10 L300 350"/>
+    <path d="M520 0 L470 350"/><path d="M735 10 L640 360"/>
+  </g>
+  <path d="M0 420 H800 V600 H0 Z" fill="#080809"/>
+  <path d="M0 470 H800" stroke="#F1E8DA" stroke-opacity="0.10" stroke-width="3"/>
+  <g stroke="#F1E8DA" stroke-opacity="0.12" stroke-width="3">
+    <path d="M70 585 L190 470"/><path d="M230 585 L320 470"/>
+    <path d="M390 585 L445 470"/><path d="M550 585 L570 470"/>
+    <path d="M710 585 L690 470"/>
+  </g>
+  <path d="M240 470 L280 400 H555 L620 470 Z" fill="url(#c2car)"/>
+  <path d="M310 405 H535 L570 458 H270 Z" fill="#171A1D"/>
+  <circle cx="335" cy="475" r="38" fill="#050506"/>
+  <circle cx="335" cy="475" r="17" fill="#2B2B2C"/>
+  <circle cx="545" cy="475" r="38" fill="#050506"/>
+  <circle cx="545" cy="475" r="17" fill="#2B2B2C"/>
+  <path d="M275 445 H310 V458 H270 Z" fill="#F0C27A" opacity="0.9"/>
+  <path d="M555 445 H595 L605 458 H565 Z" fill="#D98B36" opacity="0.75"/>
+  <ellipse cx="300" cy="520" rx="120" ry="12" fill="#E7B568" opacity="0.12"/>
+  <ellipse cx="565" cy="520" rx="90" ry="10" fill="#D98B36" opacity="0.10"/>
+  <rect x="690" y="245" width="34" height="95" rx="8" fill="#111214"/>
+  <circle cx="707" cy="272" r="10" fill="#D98B36" opacity="0.85"/>
+  <circle cx="707" cy="304" r="10" fill="#3A342D"/>
+  <circle cx="707" cy="332" r="10" fill="#3A342D"/>
+  <path d="M690 340 H724" stroke="#F1E8DA" stroke-opacity="0.14" stroke-width="4"/>
+  <g stroke="#F1E8DA" stroke-opacity="0.12" stroke-width="2">
+    <path d="M80 60 L60 120"/><path d="M180 30 L158 95"/>
+    <path d="M430 50 L410 110"/><path d="M760 40 L740 105"/>
+  </g>
+</svg>

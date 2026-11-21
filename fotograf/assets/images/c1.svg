@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Утренняя улица в лучах солнца">
+  <title>Город: утро</title>
+  <defs>
+    <linearGradient id="c1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5A412D"/>
+      <stop offset="0.55" stop-color="#2B231E"/>
+      <stop offset="1" stop-color="#0D0C0C"/>
+    </linearGradient>
+    <radialGradient id="c1sun" cx="68%" cy="24%" r="46%">
+      <stop offset="0" stop-color="#E4A353" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#E4A353" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c1road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26211D"/>
+      <stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#c1sky)"/>
+  <circle cx="570" cy="140" r="230" fill="url(#c1sun)"/>
+  <circle cx="570" cy="140" r="46" fill="#F0B865" opacity="0.48"/>
+  <path d="M0 360 H110 V180 H220 V300 H310 V140 H410 V330 H520 V205 H640 V340 H800 V600 H0 Z" fill="#141315"/>
+  <path d="M0 360 H800" stroke="#D98B36" stroke-opacity="0.20" stroke-width="3"/>
+  <g fill="#F1E8DA" opacity="0.12">
+    <rect x="135" y="215" width="20" height="28"/><rect x="170" y="215" width="20" height="28"/>
+    <rect x="335" y="175" width="20" height="28"/><rect x="370" y="175" width="20" height="28"/>
+    <rect x="555" y="235" width="20" height="28"/><rect x="590" y="235" width="20" height="28"/>
+    <rect x="685" y="250" width="20" height="28"/><rect x="720" y="250" width="20" height="28"/>
+  </g>
+  <path d="M0 150 C220 195 580 195 800 145" fill="none" stroke="#F1E8DA" stroke-opacity="0.10" stroke-width="2"/>
+  <path d="M0 170 C220 215 580 215 800 165" fill="none" stroke="#F1E8DA" stroke-opacity="0.07" stroke-width="2"/>
+  <path d="M0 420 H800 V600 H0 Z" fill="url(#c1road)"/>
+  <path d="M70 600 L310 420 M570 600 L480 420" stroke="#F1E8DA" stroke-opacity="0.08" stroke-width="3"/>
+  <g fill="#D98B36" opacity="0.18">
+    <rect x="520" y="470" width="150" height="8" rx="4"/>
+    <rect x="540" y="510" width="110" height="6" rx="3"/>
+    <rect x="120" y="530" width="90" height="6" rx="3"/>
+  </g>
+  <path d="M280 520 L290 445 H325 L338 520 Z" fill="#080808"/>
+  <path d="M292 448 V410 H324 V450 Z" fill="#0C0B0B"/>
+  <circle cx="309" cy="390" r="20" fill="#0A0909"/>
+  <path d="M330 462 L365 490" stroke="#080808" stroke-width="9" stroke-linecap="round"/>
+  <path d="M288 462 L258 490" stroke="#080808" stroke-width="9" stroke-linecap="round"/>
+  <path d="M0 420 H800" stroke="#F1E8DA" stroke-opacity="0.10" stroke-width="4"/>
+</svg>

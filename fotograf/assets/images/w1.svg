@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Свадебная пара под аркой на закате">
+  <title>Свадьба: клятва</title>
+  <defs>
+    <linearGradient id="w1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3E2B24"/>
+      <stop offset="0.55" stop-color="#7A4A2A"/>
+      <stop offset="1" stop-color="#1B1412"/>
+    </linearGradient>
+    <radialGradient id="w1glow" cx="50%" cy="70%" r="55%">
+      <stop offset="0" stop-color="#E5A652" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#E5A652" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="w1ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1F1A"/>
+      <stop offset="1" stop-color="#0C0B0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#w1sky)"/>
+  <rect width="800" height="600" fill="url(#w1glow)"/>
+  <circle cx="400" cy="330" r="115" fill="#F0B865" opacity="0.20"/>
+  <path d="M185 560 V250 C185 130 290 55 400 55 C510 55 615 130 615 250 V560" fill="none" stroke="#E7D9C6" stroke-opacity="0.22" stroke-width="18"/>
+  <path d="M215 560 V255 C215 150 300 85 400 85 C500 85 585 150 585 255 V560" fill="none" stroke="#D98B36" stroke-opacity="0.22" stroke-width="4"/>
+  <path d="M0 480 C160 445 270 465 400 470 C530 475 660 450 800 480 V600 H0 Z" fill="url(#w1ground)"/>
+  <path d="M325 560 C335 475 355 435 385 420 C400 412 418 412 432 420 C462 435 482 475 492 560 Z" fill="#0E0C0C"/>
+  <path d="M345 430 L385 420 L405 470 L370 480 Z" fill="#EFE4D4" opacity="0.88"/>
+  <circle cx="399" cy="370" r="30" fill="#8A5A3B"/>
+  <path d="M370 366 C372 330 392 315 414 322 C438 330 446 352 438 380 C424 352 402 344 380 350 Z" fill="#100C0A"/>
+  <path d="M430 560 C440 470 455 432 485 418 C500 411 516 413 528 422 C552 440 566 480 572 560 Z" fill="#080808"/>
+  <path d="M495 425 L525 418 L548 470 L510 478 Z" fill="#F1E8DA" opacity="0.82"/>
+  <circle cx="522" cy="374" r="29" fill="#A06A46"/>
+  <path d="M494 372 C494 338 516 322 538 330 C560 338 568 358 560 384 C548 356 526 350 504 356 Z" fill="#0B0908"/>
+  <path d="M432 432 C455 418 470 418 492 430" fill="none" stroke="#D98B36" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <g fill="#E8C48D" opacity="0.65">
+    <circle cx="250" cy="180" r="6"/><circle cx="550" cy="160" r="5"/>
+    <circle cx="620" cy="300" r="7"/><circle cx="180" cy="340" r="5"/>
+    <circle cx="300" cy="120" r="4"/><circle cx="500" cy="230" r="4"/>
+  </g>
+  <path d="M0 560 H800" stroke="#F1E8DA" stroke-opacity="0.12" stroke-width="3"/>
+</svg>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>redds. - веб-разработчик на фрилансе</title>
+  <meta name="description" content="redds. - независимый веб-разработчик. Лендинги, сайты-визитки, портфолио и доработка существующих сайтов на HTML, CSS и JavaScript.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#151617">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+
+  <header class="header">
+    <div class="wrap header__in">
+      <a class="logo" href="#home" aria-label="redds. - на главную">redds.</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--sm header__cta" href="#contacts">Написать</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="home">
+      <div class="hero__text">
+        <p class="hero__role">Веб-разработчик на фрилансе</p>
+        <h1>Создаю сайты, которые работают.</h1>
+        <p class="hero__lead">Разрабатываю современные сайты для бизнеса и частных специалистов: быстрые, понятные посетителю и аккуратно сверстанные. Один исполнитель на всём пути от макета до запуска.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#contacts">Обсудить проект</a>
+          <a class="btn btn--ghost" href="#projects">Мои работы</a>
+        </div>
+      </div>
+      <div class="frame" aria-hidden="true">
+        <div class="frame__bar"><i></i><i></i><i></i><span>Предпросмотр сайта</span></div>
+        <div class="frame__body">
+          <b class="l l1"></b><b class="l l2"></b><b class="l l3"></b>
+          <div class="frame__grid"><span></span><span></span><span></span></div>
+          <b class="l l4"></b><b class="l l5"></b>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="services" aria-labelledby="services-title">
+      <h2 id="services-title">Услуги</h2>
+      <ul class="services">
+        <li>
+          <h3>Лендинги</h3>
+          <p>Одностраничные сайты под одну задачу: продать продукт, собрать заявки, анонсировать событие. Чёткая структура и понятный призыв к действию.</p>
+          <p class="price"><span>от</span> <data value="2500">2&nbsp;500&nbsp;₽</data></p>
+        </li>
+        <li>
+          <h3>Сайты-визитки</h3>
+          <p>Краткий рассказ о вас или вашей компании: услуги, контакты, схема проезда. Быстро запускается и легко обновляется.</p>
+          <p class="price"><span>от</span> <data value="1500">1&nbsp;500&nbsp;₽</data></p>
+        </li>
+        <li>
+          <h3>Портфолио</h3>
+          <p>Сайт для дизайнеров, фотографов и других специалистов, чьи работы говорят сами за себя. Галерея, описания проектов, форма связи.</p>
+          <p class="price"><span>от</span> <data value="2000">2&nbsp;000&nbsp;₽</data></p>
+        </li>
+        <li>
+          <h3>Доработка существующих сайтов</h3>
+          <p>Исправлю вёрстку, ускорю загрузку, добавлю адаптивность или новый раздел. Работаю с чужим кодом аккуратно и без полной переделки.</p>
+          <p class="price"><span>от</span> <data value="500">500&nbsp;₽</data></p>
+        </li>
+      </ul>
+      <p class="section__note services__note">Указаны начальные цены. Итоговая стоимость зависит от сложности и объёма работы и согласовывается до начала проекта.</p>
+    </section>
+
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Проекты</h2>
+      <p class="section__note">Ниже три демонстрационные работы. Это учебные концепты, а не заказы реальных клиентов.</p>
+      <div class="projects">
+        <article class="card">
+          <div class="card__preview">
+            <iframe class="card__frame" src="zerno/index.html" title="Предпросмотр сайта «Зерно»" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+            <button class="card__open" type="button" data-demo="zerno/index.html" data-title="Кофейня «Зерно»">Открыть демо</button>
+          </div>
+          <div class="card__body">
+            <p class="tag">Демо-проект</p>
+            <h3>Кофейня «Зерно»</h3>
+            <p class="card__type">Лендинг</p>
+            <p>Концепт страницы кофейни: меню, галерея и контакты.</p>
+            <p class="card__stack">HTML, CSS, JavaScript</p>
+            <a class="card__link" href="zerno/index.html" target="_blank" rel="noopener noreferrer">Перейти на сайт</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__preview">
+            <iframe class="card__frame" src="yurist/index.html" title="Предпросмотр сайта юриста" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+            <button class="card__open" type="button" data-demo="yurist/index.html" data-title="Юрист Иван Петров">Открыть демо</button>
+          </div>
+          <div class="card__body">
+            <p class="tag">Демо-проект</p>
+            <h3>Юрист Иван Петров</h3>
+            <p class="card__type">Сайт-визитка</p>
+            <p>Концепт визитки частного специалиста: направления работы, опыт, контакты.</p>
+            <p class="card__stack">HTML, CSS, JavaScript</p>
+            <a class="card__link" href="yurist/index.html" target="_blank" rel="noopener noreferrer">Перейти на сайт</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__preview">
+            <iframe class="card__frame" src="fotograf/index.html" title="Предпросмотр портфолио фотографа" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+            <button class="card__open" type="button" data-demo="fotograf/index.html" data-title="Студия фотографа">Открыть демо</button>
+          </div>
+          <div class="card__body">
+            <p class="tag">Демо-проект</p>
+            <h3>Студия фотографа</h3>
+            <p class="card__type">Портфолио</p>
+            <p>Концепт портфолио с адаптивной сеткой работ и просмотром крупного кадра.</p>
+            <p class="card__stack">HTML, CSS, JavaScript</p>
+            <a class="card__link" href="fotograf/index.html" target="_blank" rel="noopener noreferrer">Перейти на сайт</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap about" id="about" aria-labelledby="about-title">
+      <h2 id="about-title">Обо мне</h2>
+      <div class="about__text">
+        <p>redds. - это независимая практика по веб-разработке. Я работаю один, поэтому вы общаетесь напрямую с тем, кто пишет код, и не переплачиваете за посредников.</p>
+        <p>Использую базовые веб-технологии без лишних надстроек, чтобы сайт загружался быстро и оставался понятным для дальнейшей поддержки.</p>
+        <dl class="stack">
+          <div><dt>HTML</dt><dd>Семантическая разметка, доступность, SEO-основа.</dd></div>
+          <div><dt>CSS</dt><dd>Адаптивная вёрстка, аккуратная типографика, сдержанная анимация.</dd></div>
+          <div><dt>JavaScript</dt><dd>Формы, галереи, меню и другая интерактивность без тяжёлых библиотек.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section wrap" id="contacts" aria-labelledby="contacts-title">
+      <h2 id="contacts-title">Контакты</h2>
+      <p class="section__note">Расскажите коротко о задаче и сроках - отвечу и предложу следующий шаг.</p>
+      <ul class="contacts">
+        <li>
+          <span>Telegram</span>
+          <a href="https://t.me/redds72" target="_blank" rel="noopener noreferrer">@redds72</a>
+        </li>
+        <li>
+          <span>Почта</span>
+          <a href="mailto:redstone2888@gmail.com" id="email">redstone2888@gmail.com</a>
+          <button class="btn btn--sm btn--ghost" type="button" id="copy" data-copy="redstone2888@gmail.com">Скопировать</button>
+        </li>
+      </ul>
+      <p class="contacts__hint" id="copy-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <p>© <span id="year">2026</span> redds.</p>
+      <a href="#home">Наверх</a>
+    </div>
+  </footer>
+
+  <dialog class="demo" id="demo" aria-label="Просмотр демонстрационного сайта">
+    <div class="demo__bar">
+      <span id="demo-title">Демонстрационный сайт</span>
+      <a id="demo-external" href="zerno/index.html" target="_blank" rel="noopener noreferrer">Открыть в новой вкладке</a>
+      <button type="button" id="demo-close" aria-label="Закрыть">×</button>
+    </div>
+    <iframe id="demo-frame" title="Демонстрационный сайт" src="about:blank"></iframe>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>

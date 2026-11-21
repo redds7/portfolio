@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Портрет в профиль на тёплом фоне">
+  <title>Портрет в профиль</title>
+  <defs>
+    <linearGradient id="p2bg" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#241A16"/>
+      <stop offset="0.5" stop-color="#14100F"/>
+      <stop offset="1" stop-color="#09090A"/>
+    </linearGradient>
+    <radialGradient id="p2halo" cx="35%" cy="35%" r="58%">
+      <stop offset="0" stop-color="#F1E8DA" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#F1E8DA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p2face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8C5C3D"/>
+      <stop offset="1" stop-color="#2C1B14"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p2bg)"/>
+  <circle cx="290" cy="230" r="280" fill="url(#p2halo)"/>
+  <rect x="70" y="0" width="4" height="600" fill="#D98B36" opacity="0.18"/>
+  <rect x="150" y="0" width="2" height="600" fill="#F1E8DA" opacity="0.08"/>
+  <path d="M170 600 C205 460 290 400 410 392 C520 385 610 425 660 600 Z" fill="#080707"/>
+  <path d="M390 392 V320 H500 V392 Z" fill="#21150F"/>
+  <path d="M405 300 C400 268 406 232 424 204 C442 176 470 160 502 164 C536 168 558 190 566 222 C574 254 566 286 548 308 C560 318 568 330 566 342 C552 338 540 334 528 330 C514 350 490 362 466 360 C434 357 412 334 405 300 Z" fill="url(#p2face)"/>
+  <path d="M420 210 C438 158 496 134 540 158 C580 180 590 232 570 268 C560 232 540 210 512 200 C478 188 446 196 420 210 Z" fill="#090808"/>
+  <path d="M566 222 C576 234 578 250 570 264" fill="none" stroke="#D98B36" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="515" cy="238" r="6" fill="#120C09"/>
+  <path d="M548 300 C538 308 524 310 512 306" fill="none" stroke="#3A2318" stroke-width="4" stroke-linecap="round"/>
+  <path d="M605 92 C620 122 622 154 614 184" fill="none" stroke="#D98B36" stroke-width="3" opacity="0.35"/>
+  <path d="M640 70 C652 108 652 146 644 178" fill="none" stroke="#F1E8DA" stroke-width="2" opacity="0.16"/>
+  <rect x="600" y="470" width="130" height="8" rx="4" fill="#F1E8DA" opacity="0.08"/>
+</svg>

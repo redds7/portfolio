@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DDC9AC"/>
+      <stop offset="1" stop-color="#B9996F"/>
+    </linearGradient>
+    <linearGradient id="pot2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6E4A31"/>
+      <stop offset="1" stop-color="#3E2A1D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="290" r="245" fill="#EFE0C8" opacity=".4"/>
+  <ellipse cx="400" cy="474" rx="220" ry="34" fill="#5D412B" opacity=".28"/>
+
+  <path d="M560 320q60-20 68 40 6 46-62 48" fill="none" stroke="#8E6747" stroke-width="30" stroke-linecap="round"/>
+  <path d="M560 320q60-20 68 40 6 46-62 48" fill="none" stroke="#C9A77F" stroke-width="16" stroke-linecap="round"/>
+  <path d="M240 330q-56 0-56 48 0 44 56 44" fill="none" stroke="#8E6747" stroke-width="28" stroke-linecap="round"/>
+  <path d="M240 330q-56 0-56 48 0 44 56 44" fill="none" stroke="#C9A77F" stroke-width="14" stroke-linecap="round"/>
+
+  <ellipse cx="390" cy="344" rx="160" ry="118" fill="url(#pot2)" stroke="#2B1D14" stroke-width="5"/>
+  <path d="M238 344q0 118 152 118t152-118" fill="none" stroke="#8E6747" stroke-width="5" opacity=".7"/>
+  <ellipse cx="390" cy="266" rx="100" ry="26" fill="#8E6747" stroke="#2B1D14" stroke-width="5"/>
+  <path d="M296 258q94-50 188 0" fill="#A47B58" stroke="#2B1D14" stroke-width="5"/>
+  <ellipse cx="390" cy="226" rx="24" ry="13" fill="#2B1D14"/>
+  <circle cx="390" cy="208" r="15" fill="#8E6747" stroke="#2B1D14" stroke-width="4"/>
+  <path d="M390 190c-18-20 18-34 0-56M350 194c-16-16 14-30 0-48M430 194c-16-16 14-30 0-48" fill="none" stroke="#FFF4DC" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+
+  <ellipse cx="646" cy="458" rx="76" ry="16" fill="#F3E8D6" stroke="#8E6747" stroke-width="4"/>
+  <path d="M616 418q0 38 30 40 30-2 30-40Z" fill="#FBF3E6" stroke="#8E6747" stroke-width="4"/>
+  <ellipse cx="646" cy="418" rx="30" ry="9" fill="#C99760" stroke="#8E6747" stroke-width="3"/>
+</svg>

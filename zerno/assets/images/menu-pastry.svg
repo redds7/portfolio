@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F3E7D3"/>
+      <stop offset="1" stop-color="#DCC4A4"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#8A684C"/>
+      <stop offset="1" stop-color="#5E4431"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="60" y="130" width="680" height="380" rx="24" fill="url(#board)"/>
+  <rect x="60" y="130" width="680" height="380" rx="24" fill="none" stroke="#C9A77F" stroke-width="6"/>
+  <path d="M100 190h600M100 450h600" stroke="#A07C58" stroke-width="3" opacity=".5"/>
+
+  <g transform="translate(250 300) rotate(-14)">
+    <path d="M-150 20q30-80 100-70 40 6 50 40 10-34 50-40 70-10 100 70-20 60-100 62-40 2-50-24-10 26-50 24-80-2-100-62Z" fill="#D9A565" stroke="#A87443" stroke-width="5"/>
+    <path d="M-118 16q34-40 88-30M-96 48q34-26 76-20M-20-16q0 60 0 80M20-16q0 60 0 80M30 16q34-40 88-30M52 48q34-26 76-20" fill="none" stroke="#B9834D" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(560 400) rotate(12) scale(.78)">
+    <path d="M-150 20q30-80 100-70 40 6 50 40 10-34 50-40 70-10 100 70-20 60-100 62-40 2-50-24-10 26-50 24-80-2-100-62Z" fill="#E0AF70" stroke="#A87443" stroke-width="5"/>
+    <path d="M-118 16q34-40 88-30M-96 48q34-26 76-20M-20-16q0 60 0 80M20-16q0 60 0 80M30 16q34-40 88-30M52 48q34-26 76-20" fill="none" stroke="#B9834D" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#A87443" opacity=".7">
+    <circle cx="170" cy="468" r="6"/><circle cx="196" cy="482" r="4"/><circle cx="648" cy="200" r="5"/><circle cx="676" cy="216" r="3"/>
+  </g>
+</svg>

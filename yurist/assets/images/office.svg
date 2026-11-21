@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Иллюстрация рабочего кабинета юриста">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4f6f8"/>
+      <stop offset="100%" stop-color="#dde5ec"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c79a73"/>
+      <stop offset="100%" stop-color="#a77752"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a415c"/>
+      <stop offset="100%" stop-color="#162638"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#wall)"/>
+  <rect x="0" y="430" width="800" height="170" fill="#c8d2dd" opacity="0.45"/>
+  <rect x="70" y="90" width="280" height="250" rx="10" fill="#f8fafc" stroke="#c8d2dd" stroke-width="4"/>
+  <rect x="98" y="118" width="224" height="194" rx="4" fill="#e9edf2"/>
+  <path d="M98 250c40-35 75-50 110-50s72 18 114 50v62H98z" fill="#b8c7d6"/>
+  <circle cx="210" cy="188" r="26" fill="#d7dee6"/>
+  <rect x="430" y="80" width="280" height="280" rx="8" fill="#ffffff" stroke="#c8d2dd" stroke-width="4"/>
+  <rect x="450" y="100" width="52" height="240" rx="3" fill="#1f344d"/>
+  <rect x="510" y="110" width="44" height="230" rx="3" fill="#2a415c"/>
+  <rect x="562" y="100" width="52" height="240" rx="3" fill="#b58a63"/>
+  <rect x="622" y="115" width="40" height="225" rx="3" fill="#8fa3b8"/>
+  <rect x="670" y="105" width="24" height="235" rx="3" fill="#d7dee6"/>
+  <g>
+    <rect x="110" y="390" width="580" height="34" rx="8" fill="url(#desk)"/>
+    <rect x="150" y="424" width="24" height="110" rx="6" fill="#8d6648"/>
+    <rect x="626" y="424" width="24" height="110" rx="6" fill="#8d6648"/>
+    <rect x="150" y="520" width="500" height="14" rx="7" fill="#8d6648" opacity="0.85"/>
+  </g>
+  <g>
+    <rect x="210" y="332" width="150" height="58" rx="4" fill="#ffffff" stroke="#d7dee6" stroke-width="3"/>
+    <path d="M225 348h120M225 362h120M225 376h84" stroke="#b8c7d6" stroke-width="4" stroke-linecap="round"/>
+    <rect x="388" y="350" width="86" height="40" rx="4" fill="url(#navy)"/>
+    <rect x="401" y="340" width="60" height="16" rx="3" fill="#b58a63"/>
+    <circle cx="548" cy="314" r="18" fill="#f4f6f8" stroke="#c8d2dd" stroke-width="4"/>
+    <path d="M548 332v58" stroke="#8fa3b8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M520 390h56" stroke="#8fa3b8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M532 270l16 44h-32z" fill="#b58a63"/>
+    <path d="M548 270v44" stroke="#f4f6f8" stroke-width="3" opacity="0.7"/>
+  </g>
+  <rect x="604" y="354" width="56" height="36" rx="4" fill="#ffffff" stroke="#d7dee6" stroke-width="3"/>
+  <path d="M618 366h28M618 376h20" stroke="#b8c7d6" stroke-width="3" stroke-linecap="round"/>
+</svg>
